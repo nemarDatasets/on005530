@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Depotentiation of emotional reactivity using TMR during REM sleep",
   "description": "This dataset contains multimodal neuroimaging and physiological data from a study investigating the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity. Participants encoded affective images paired with sounds, received auditory cues during subsequent REM sleep, and were rescanned 48 hours later during arousal rating tasks in an fMRI scanner. The dataset includes structural and functional MRI, polysomnographic recordings with EEG during sleep, heart rate measurements, and behavioral ratings across three sessions spanning two weeks.",
-  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Polysomnography was recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, referenced to the average of left and right mastoids. Heart rate was recorded using BrainVision BrainAmp ExG during behavioral sessions and pulse oximetry during fMRI. fMRI preprocessing was performed using fMRIPrep 20.2.7, and T1-weighted images were defaced using pydeface 2.0.2.",
+  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Polysomnography was recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, all live referenced to the average of left and right mastoids. Heart rate was recorded using BrainVision BrainAmp ExG during behavioral sessions and pulse oximetry during fMRI. fMRI data were preprocessed using fMRIPrep 20.2.7, and T1-weighted structural scans were defaced using pydeface 2.0.2.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,7 +23,10 @@
       "term": "EEG"
     },
     {
-      "term": "REM sleep"
+      "term": "REM Sleep Behavior Disorder",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020187"
     },
     {
       "term": "memory reactivation"
@@ -32,12 +35,12 @@
       "term": "emotional reactivity"
     },
     {
-      "term": "targeted memory reactivation"
-    },
-    {
       "term": "Polysomnography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    },
+    {
+      "term": "targeted memory reactivation"
     }
   ],
   "related_identifiers": [
