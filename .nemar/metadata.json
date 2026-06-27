@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Depotentiation of emotional reactivity using TMR during REM sleep",
+  "description": "This dataset contains multimodal neuroimaging and physiological data from a study investigating the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity. Participants encoded affective images paired with sounds, received auditory cues during subsequent REM sleep, and were rescanned 48 hours later during arousal rating tasks in an fMRI scanner. The dataset includes structural and functional MRI, polysomnographic recordings with EEG during sleep, heart rate measurements, and behavioral ratings across three sessions spanning two weeks.",
+  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Polysomnography was recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, referenced to the average of left and right mastoids. Heart rate was recorded using BrainVision BrainAmp ExG during behavioral sessions and pulse oximetry during fMRI. fMRI preprocessing was performed using fMRIPrep 20.2.7, and T1-weighted images were defaced using pydeface 2.0.2.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,32 @@
     "Mahmoud E. A. Abdellahi": {},
     "Penelope A. Lewis": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005530.v1.0.9",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "fMRI"
     },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "REM sleep"
+    },
+    {
+      "term": "memory reactivation"
+    },
+    {
+      "term": "emotional reactivity"
+    },
+    {
+      "term": "targeted memory reactivation"
+    },
+    {
+      "term": "Polysomnography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005530",
       "identifier_type": "URL",
@@ -28,6 +50,11 @@
       "identifier": "https://nemar.org/dataset/on005530",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005530.v1.0.9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -42,6 +69,7 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
@@ -49,9 +77,8 @@
     "fmap",
     "func"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "6.9 GB (168 files)"
   ],
   "formats": [
     ".eeg",
@@ -60,29 +87,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset investigates the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity using multimodal neuroimaging. Participants rated the emotional arousal of affective images paired with sounds, with half of the sounds cued during REM sleep in an overnight session. Neuroimaging assessments including fMRI, EEG, and physiological recordings (heart rate, pulse oximetry) were conducted 48 hours post-encoding, with behavioral follow-up at two weeks. The dataset includes structural MRI, functional MRI, polysomnography, and behavioral measures across three study sessions.",
-  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Polysomnography was recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, referenced to the average of left and right mastoids. Heart rate was recorded using BrainVision BrainAmp ExG during behavioral sessions and pulse oximetry during fMRI. fMRI data were preprocessed using fMRIPrep 20.2.7, and T1-weighted structural scans were defaced using pydeface 2.0.2.",
-  "keywords": [
-    {
-      "term": "Targeted Memory Reactivation"
-    },
-    {
-      "term": "REM sleep"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "emotional reactivity"
-    },
-    {
-      "term": "memory consolidation"
-    }
-  ],
-  "source_hash": "29b577ebf9857081c23aea0ef5c11efe92e8c381b9edfe87de0c71d57a761f42"
+  "source_hash": "87f3d94db0aef323ad1e873c199a7833b9fca1456e76ebb1183f8abcf82ccf76"
 }
