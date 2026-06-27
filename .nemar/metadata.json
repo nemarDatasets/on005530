@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005530",
-  "source": "openneuro",
-  "source_id": "ds005530",
+  "pipeline_stage": "validated",
   "title": "Depotentiation of emotional reactivity using TMR during REM sleep",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Viviana Greco": {},
     "Tamas A. Foldes": {},
@@ -13,38 +13,76 @@
     "Mahmoud E. A. Abdellahi": {},
     "Penelope A. Lewis": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005530.v1.0.9",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005530",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005530",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "anat",
-    "beh",
-    "eeg",
-    "fmap",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "eeg",
-    "fmap",
-    "func"
   ],
   "funding_references": [
     {
-      "funder_name": "ERC consolidator grant SolutionSleep to Lewis P.A."
+      "funder_name": "European Research Council",
+      "award_number": "SolutionSleep",
+      "award_title": "ERC consolidator grant"
     },
     {
-      "funder_name": "The Wellcome Trust [WT224267] to Murphy K"
+      "funder_name": "Wellcome Trust",
+      "award_number": "WT224267"
     }
   ],
-  "acknowledgements": "We thank Sophie Smith and Caterina Leitner for collaboration at the early and late phases of the study. We also acknowledge Sofia I.R. Pereira for her significant contribution to data collection."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "beh",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gz",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset investigates the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity using multimodal neuroimaging. Participants rated the emotional arousal of affective images paired with sounds, with half of the sounds cued during REM sleep in an overnight session. Neuroimaging assessments including fMRI, EEG, and physiological recordings (heart rate, pulse oximetry) were conducted 48 hours post-encoding, with behavioral follow-up at two weeks. The dataset includes structural MRI, functional MRI, polysomnography, and behavioral measures across three study sessions.",
+  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Polysomnography was recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, referenced to the average of left and right mastoids. Heart rate was recorded using BrainVision BrainAmp ExG during behavioral sessions and pulse oximetry during fMRI. fMRI data were preprocessed using fMRIPrep 20.2.7, and T1-weighted structural scans were defaced using pydeface 2.0.2.",
+  "keywords": [
+    {
+      "term": "Targeted Memory Reactivation"
+    },
+    {
+      "term": "REM sleep"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "emotional reactivity"
+    },
+    {
+      "term": "memory consolidation"
+    }
+  ],
+  "source_hash": "29b577ebf9857081c23aea0ef5c11efe92e8c381b9edfe87de0c71d57a761f42"
 }
