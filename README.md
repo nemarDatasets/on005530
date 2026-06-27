@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005530-blue)](https://doi.org/10.82901/nemar.on005530)
+
 # Disarming emotional memories using Targeted Memory Reactivation during Rapid Eye Movement sleep
 
 This dataset contains fMRI and EEG data from a study investigating the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity. As well as behavioural data and ECG collected during behavioural tasks.
