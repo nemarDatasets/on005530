@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Depotentiation of emotional reactivity using TMR during REM sleep",
-  "description": "This dataset comprises fMRI, EEG, ECG, and behavioural data from a study examining how Targeted Memory Reactivation (TMR) during REM sleep affects emotional reactivity to affective images. Participants rated arousal of affective image-sound pairs, with a subset of sounds cued during subsequent REM sleep, and their responses were assessed via heart rate deceleration, fMRI scanning, and follow-up ratings over multiple sessions. The study aims to elucidate mechanisms underlying memory-based depotentiation of emotional reactivity.",
-  "methods_description": "fMRI data were acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Heart rate was recorded using BrainVision BrainAmp ExG with an ExG AUX box and multitrodes during behavioural sessions and via pulse oximetry during fMRI sessions. Polysomnography included ten electrodes: 6 EEG channels (F3, F4, C3, C4, O1, O2), 2 EMG channels, and 2 EOG channels, referenced to the average of left and right mastoids. fMRI data were preprocessed using fMRIPrep 20.2.7, and T1-weighted structural scans were defaced using pydeface version 2.0.2.",
+  "description": "This dataset contains fMRI, polysomnography (EEG/EMG/EOG), ECG and pulse oximetry, and behavioural data from a study of Targeted Memory Reactivation (TMR) during REM sleep and its effect on emotional reactivity. Participants rated the arousal of 48 affective images paired with matching sounds, and half of the sounds were cued during overnight REM sleep. Arousal ratings and heart rate deceleration were assessed at baseline, in an MRI scanner 48 hours later, and in an online follow-up two weeks after baseline.",
+  "methods_description": "Structural and functional MRI were acquired on a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil. Heart rate was recorded with a BrainVision BrainAmp ExG during the behavioural sessions and by pulse oximetry during fMRI. Polysomnography used six EEG channels, two EMG channels and two EOG channels, referenced to the averaged mastoids. fMRI data were preprocessed with fMRIPrep 20.2.7, and T1-weighted images were defaced with pydeface 2.0.2.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,30 +17,29 @@
   },
   "keywords": [
     {
-      "term": "Targeted Memory Reactivation"
-    },
-    {
-      "term": "REM Sleep Behavior Disorder",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020187"
-    },
-    {
-      "term": "emotional memory"
-    },
-    {
       "term": "fMRI"
     },
     {
       "term": "EEG"
     },
     {
+      "term": "Targeted Memory Reactivation"
+    },
+    {
+      "term": "REM sleep"
+    },
+    {
+      "term": "emotional memory"
+    },
+    {
+      "term": "Sleep, REM",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012895"
+    },
+    {
       "term": "Polysomnography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
-    },
-    {
-      "term": "autonomic arousal"
     }
   ],
   "related_identifiers": [
@@ -66,7 +65,7 @@
     },
     {
       "funder_name": "European Research Council",
-      "award_title": "SolutionSleep"
+      "award_title": "SolutionSleep (ERC consolidator grant)"
     },
     {
       "funder_name": "Wellcome Trust",
@@ -83,7 +82,7 @@
     "func"
   ],
   "sizes": [
-    "6.9 GB (168 files)"
+    "6.47 GB (168 files)"
   ],
   "formats": [
     ".eeg",
